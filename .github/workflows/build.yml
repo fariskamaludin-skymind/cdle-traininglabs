@@ -29,6 +29,5 @@ jobs:
 
       - name: Run java version
         run: |
-          pwd
-          javac -source 8 -target 8 /dl4j-labs/src/main/java/ai/certifai/solution/convolution/mnist/MnistClassifier.java
+          javac -source 8 -target 8 $GITHUB_WORKSPACE/dl4j-labs/src/main/java/ai/certifai/solution/convolution/mnist/MnistClassifier.java
           mvn -B -U verify
