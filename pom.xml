@@ -59,6 +59,13 @@
         <maven.minimum.version>3.3.1</maven.minimum.version>
         <javafx.version>2.2.3</javafx.version>
         <lombok.version>1.18.16</lombok.version>
+
+        <sonar.projectKey>fariskamaludin-skymind_cdle-traininglabs</sonar.projectKey>
+        <sonar.moduleKey>${artifactId}</sonar.moduleKey>
+        <sonar.organization>fariskamaludin-skymind</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+
     </properties>
 
     <modules>
